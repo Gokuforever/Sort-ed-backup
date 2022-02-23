@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pre-Registration</title>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="../Assets/style/preRegister.css" />
+    <link rel="stylesheet" href="../Assets/style/forms-mobile.css" />
+    <link rel="stylesheet" href="../Assets/style/style.css" />
+    <link rel="stylesheet" href="../Assets/style/mobile.css" />
+    <script>
+      function ClearForm() {
+        document.MyForm.reset();
+      }
+    </script>
+  </head>
+  <body onload="ClearForm()">
+    <section class="pre-register" id="pre-register">
+      <div class="bg-image">
+        <img src="../Assets/images/form-rocket.svg" alt="" />
+      </div>
+      <div class="form-section">
+        <div class="form-title">
+          <h2>Pre-Register Now!!</h2>
+        </div>
+        <div class="form-fields">
+          <div class="name">
+            <div id="lable-field">
+              <label class="lable" for="firstName"> First Name :</label>
+              <input
+                class="input-field"
+                type="text"
+                name="firstName"
+                id="firstName"
+                placeholder="First Name"
+                required
+              />
+            </div>
+            <div id="lable-field">
+              <label class="lable" for="lastName"> Last Name :</label>
+              <input
+                class="input-field"
+                type="text"
+                name="lastName"
+                id="lastName"
+                placeholder="Last Name"
+                required
+              />
+            </div>
+          </div>
+          <div class="contact">
+            <div id="lable-field">
+              <label class="lable" for="email"> E-Mail :</label> <br />
+              <input
+                class="input-field"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="your@mail.com"
+                required
+              />
+            </div>
+            <div id="lable-field">
+              <label class="lable" for="mobileNo">Mobile No :</label><br />
+              <input
+                class="input-field"
+                type="number"
+                name="mobileNo"
+                id="mobileNo"
+                placeholder="+91 xxx-xxxx-xxx"
+                required
+              />
+            </div>
+          </div>
+
+          <a href="clgInfo.html"><button>Next</button></a>
+        </div>
+      </div>
+    </section>
+    <!--======================= footer section =============== -->
+    <footer class="footer" id="footer">
+      <div class="footer-wrapper" id="footer-wrapper">
+        <div class="icon-slogen-section">
+          <div class="logo">
+            <h1>Sort-Ed</h1>
+          </div>
+          <div class="slogen">
+            <p>Register now and make your life <strong>Sort-Ed</strong></p>
+
+            <p>Sort-Ed.in 2021</p>
+          </div>
+        </div>
+        <div class="links-section">
+          <div class="links-wrapper">
+            <div class="box-1">
+              <a href="" class="box-1-link">About</a>
+              <a href="" class="box-1-link">Register</a>
+              <a href="" class="box-1-link">Reffral Program</a>
+              <a href="" class="box-1-link">Ambassador Program</a>
+            </div>
+            <div class="box-2">
+              <a href="" class="box-2-link">Terms and Conditions</a>
+              <a href="" class="box-2-link">Privacy Policy</a>
+            </div>
+          </div>
+
+          <div class="social-wrapper">
+            <div class="box-1">
+              <p class="box-1-text">Get connected With Us &nbsp;</p>
+              <a class="mail" href="mailto:connect@sorted.in"
+                >connect@sorted.in</a
+              >
+            </div>
+            <div class="box-2">
+              <a href="" class="social-icon"
+                ><img src="images/icons/twitter.svg" alt="" class="social-icon"
+              /></a>
+              <a href="" class="social-icon"
+                ><img
+                  src="images/icons/facebook.svg"
+                  alt=""
+                  class="social-icon"
+              /></a>
+              <a href="" class="social-icon"
+                ><img
+                  src="images/icons/instagram.png"
+                  alt=""
+                  class="social-icon"
+              /></a>
+              <a href="" class="social-icon"
+                ><img src="images/icons/youtube.svg" alt="" class="social-icon"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
